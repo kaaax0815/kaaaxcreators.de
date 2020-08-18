@@ -1,12 +1,6 @@
 <!doctype html>
 <html lang="de" class="no-js">
 <head>
-	<script async>
-    var isMobile = window.orientation > -1;
-    if(isMobile){
-        window.location.replace("amp/index");
-    };
-	</script>
 	<link rel="amphtml" href="https://kaaaxcreators.de/amp/index">
 	<base target="_blank">
 	<script type='application/ld+json'>
@@ -65,6 +59,10 @@
 	<div id="particles">
 	  <div id="intro">
 	  <script>
+		var isMobile = window.orientation > -1;
+		if(isMobile){
+			window.location.replace("amp/index");
+		};
 		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
           alert("This site is not optimized for smartphones!\nDiese Seite ist nicht für Smartphones optimiert!");
         }
