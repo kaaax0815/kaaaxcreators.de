@@ -59,8 +59,7 @@
 	<div id="particles">
 	  <div id="intro">
 	  <script>
-		var isMobile = window.orientation > -1;
-		if(isMobile){
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 			window.location.replace("amp/");
 		};
 	  </script>
