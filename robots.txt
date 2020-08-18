@@ -15,4 +15,4 @@ Disallow: /datenschutz.html
 Disallow: /sitemap.xml
 Disallow: /impressum
 Disallow: /datenschutz
-Disallow: /sitemap
+Disallow: /amp/image.webp
