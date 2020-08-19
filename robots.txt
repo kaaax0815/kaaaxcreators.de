@@ -16,3 +16,20 @@ Disallow: /sitemap.xml
 Disallow: /impressum
 Disallow: /datenschutz
 Disallow: /amp/image.webp
+
+User-agent: Bingbot
+Disallow: /assets/
+Disallow: /css/
+Disallow: /js/
+Disallow: /assets
+Disallow: /css
+Disallow: /js
+Disallow: /CNAME
+Disallow: /LICENSE
+Disallow: /.git/
+Disallow: /impressum.html
+Disallow: /datenschutz.html
+Disallow: /sitemap.xml
+Disallow: /impressum
+Disallow: /datenschutz
+Disallow: /amp/image.webp
