@@ -14,4 +14,7 @@ Disallow: /sitemap.xml
 Disallow: /impressum
 Disallow: /datenschutz
 Disallow: /amp/image.webp
+Disallow: /amp/favicon.webp
+Disallow: /amp/
+Disallow: /amp/index.html
 Sitemap: https://kaaaxcreators.de/sitemap.xml
