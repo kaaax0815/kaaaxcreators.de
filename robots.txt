@@ -1,9 +1,6 @@
 User-agent: *
-Disallow: /assets/
 Disallow: /css/
 Disallow: /js/
-Disallow: /assets
-Allow: /assets/favicon.webp
 Disallow: /css
 Disallow: /js
 Disallow: /CNAME
